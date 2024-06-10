@@ -1,7 +1,10 @@
 import '../styles/App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    console.log('The p tag has been rendered.');
+  }, []);
   return (
     <div>
       <h1>React Learning</h1>
