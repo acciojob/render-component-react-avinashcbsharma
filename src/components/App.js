@@ -3,9 +3,9 @@ import React from 'react';
 
 function App() {
   return (
-    <div id = 'root'>
-      <h1>Learning React</h1>
-      <p>I am learning React. My life is getting better.</p>
+    <div>
+      <h1>React Learning</h1>
+      <p> <a>I am learning React. My life is getting better.</a></p>
     </div>
   );
 }
